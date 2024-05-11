@@ -31,6 +31,8 @@ The pipeline include 2 steps
 - intrinsic.txt (DB_intrinsic)
 - test (points corresponding to .obj) 
 - RGB images and depth images
+#### dataset download
+- [Baidu Netdisk](https://pan.baidu.com/s/1zucziFBX8eZcl7foNrJ0Rg) （password:3dvv）（including render images, query images, query pose, DSM）
 #### dataset structure
 - For generation synthetic dataset
 > |---  Render_all     &emsp;     # synthetic dataset \
