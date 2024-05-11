@@ -81,3 +81,19 @@ eval.py  --> (272)
    We provide detector-based (SPP+SPG, SPP+NN, ...) and detector-free (LoFTR).
 - for target localization \
    We provide mouse-based and .json file -based.
+
+## Citation
+
+```bibtex
+@inproceedings{Wu2023uav4l,
+    title={UAVD4L: A Large-Scale Dataset for UAV 6-DoF Localization}, 
+    author={Rouwan Wu and Xiaoya Cheng and Juelin Zhu and Xuxiang Liu and Maojun Zhang and Shen Yan},
+    booktitle={International Conference on 3D Vision (3DV)},
+    year={2024}
+}
+```
+## References
+This repository is built on top of the following amazing repositories: 
+* Main code framework is from: [hloc](https://github.com/cvg/Hierarchical-Localization)
+
+Please follow the license of the above repositories for usage of that part of the codebase. 
