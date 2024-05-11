@@ -1,0 +1,6 @@
+setup.py
+/media/guan/3CD61590D6154C10/SomeCodes/sensloc_new/poselib/pybind/pyposelib.cpp
+poselib.egg-info/PKG-INFO
+poselib.egg-info/SOURCES.txt
+poselib.egg-info/dependency_links.txt
+poselib.egg-info/top_level.txt

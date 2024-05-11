@@ -1,0 +1,43 @@
+{
+    "generate_render_pose": {
+        "image": {
+            "enable": true,
+            "xml_path": "/media/guan/data/CityofStars/3D-models/cc/reference.xml",
+            "write_path": "/media/guan/data/CityofStars/Render_all_images",
+            "orientation_path": "/media/guan/data/CityofStars/Render_new_1/bamu_euler.txt",
+            "sequences": [
+                0,
+                1,
+                2,
+                3,
+                4
+            ],
+            "number": 10,
+            "base_height": 0,
+            "add_height": 100,
+            "intrinsic": [
+                4056,
+                3040,
+                6.29,
+                4.71,
+                4.52
+            ]
+        }
+    },
+    "render_views_and_depths": {
+        "enable": true
+    },
+    "blender_engine": {
+        "blender_path": "/home/guan/下载/blender-3.0.0-linux-x64/blender",
+        "rgb_path": "./datasets/CityofStars/3D-models/blender/rgb.blend",
+        "depth_path": "./datasets/CityofStars/3D-models/blender/depth.blend",
+        "python_rgb_path": "./sensloc/utils/blender/db_rgb.py",
+        "python_depth_path": "./sensloc/utils/blender/db_depth.py",
+        "f_mm": 4.5,
+        "sensor_width": 6.29,
+        "sensor_height": 4.71,
+        "origin": "/media/guan/data/CityofStars/3D-models/texture/metadata.xml",
+        "db_images": "/media/guan/data/CityofStars/Render_all_images/images",
+        "depth_images": "/media/guan/data/CityofStars/Render_all_images/depths"
+    }
+}

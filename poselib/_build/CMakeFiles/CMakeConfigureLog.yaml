@@ -1,0 +1,547 @@
+
+---
+events:
+  -
+    kind: "message-v1"
+    backtrace:
+      - "/home/guan/anaconda3/lib/python3.7/site-packages/cmake/data/share/cmake-3.26/Modules/CMakeDetermineSystem.cmake:204 (message)"
+      - "CMakeLists.txt:3 (project)"
+    message: |
+      The system is: Linux - 4.15.0-197-generic - x86_64
+  -
+    kind: "message-v1"
+    backtrace:
+      - "/home/guan/anaconda3/lib/python3.7/site-packages/cmake/data/share/cmake-3.26/Modules/CMakeDetermineCompilerId.cmake:17 (message)"
+      - "/home/guan/anaconda3/lib/python3.7/site-packages/cmake/data/share/cmake-3.26/Modules/CMakeDetermineCompilerId.cmake:64 (__determine_compiler_id_test)"
+      - "/home/guan/anaconda3/lib/python3.7/site-packages/cmake/data/share/cmake-3.26/Modules/CMakeDetermineCCompiler.cmake:123 (CMAKE_DETERMINE_COMPILER_ID)"
+      - "CMakeLists.txt:3 (project)"
+    message: |
+      Compiling the C compiler identification source file "CMakeCCompilerId.c" succeeded.
+      Compiler: /home/guan/anaconda3/bin/cc 
+      Build flags: 
+      Id flags:  
+      
+      The output was:
+      0
+      
+      
+      Compilation of the C compiler identification source "CMakeCCompilerId.c" produced "a.out"
+      
+      The C compiler identification is GNU, found in:
+        /media/guan/3CD61590D6154C10/SomeCodes/sensloc_new/poselib/_build/CMakeFiles/3.26.4/CompilerIdC/a.out
+      
+  -
+    kind: "message-v1"
+    backtrace:
+      - "/home/guan/anaconda3/lib/python3.7/site-packages/cmake/data/share/cmake-3.26/Modules/CMakeDetermineCompilerId.cmake:17 (message)"
+      - "/home/guan/anaconda3/lib/python3.7/site-packages/cmake/data/share/cmake-3.26/Modules/CMakeDetermineCompilerId.cmake:64 (__determine_compiler_id_test)"
+      - "/home/guan/anaconda3/lib/python3.7/site-packages/cmake/data/share/cmake-3.26/Modules/CMakeDetermineCXXCompiler.cmake:126 (CMAKE_DETERMINE_COMPILER_ID)"
+      - "CMakeLists.txt:3 (project)"
+    message: |
+      Compiling the CXX compiler identification source file "CMakeCXXCompilerId.cpp" succeeded.
+      Compiler: /usr/bin/c++ 
+      Build flags: 
+      Id flags:  
+      
+      The output was:
+      0
+      
+      
+      Compilation of the CXX compiler identification source "CMakeCXXCompilerId.cpp" produced "a.out"
+      
+      The CXX compiler identification is GNU, found in:
+        /media/guan/3CD61590D6154C10/SomeCodes/sensloc_new/poselib/_build/CMakeFiles/3.26.4/CompilerIdCXX/a.out
+      
+  -
+    kind: "try_compile-v1"
+    backtrace:
+      - "/home/guan/anaconda3/lib/python3.7/site-packages/cmake/data/share/cmake-3.26/Modules/CMakeDetermineCompilerABI.cmake:57 (try_compile)"
+      - "/home/guan/anaconda3/lib/python3.7/site-packages/cmake/data/share/cmake-3.26/Modules/CMakeTestCCompiler.cmake:26 (CMAKE_DETERMINE_COMPILER_ABI)"
+      - "CMakeLists.txt:3 (project)"
+    checks:
+      - "Detecting C compiler ABI info"
+    directories:
+      source: "/media/guan/3CD61590D6154C10/SomeCodes/sensloc_new/poselib/_build/CMakeFiles/CMakeScratch/TryCompile-PjaAmc"
+      binary: "/media/guan/3CD61590D6154C10/SomeCodes/sensloc_new/poselib/_build/CMakeFiles/CMakeScratch/TryCompile-PjaAmc"
+    cmakeVariables:
+      CMAKE_C_FLAGS: ""
+      CMAKE_C_FLAGS_DEBUG: "-g"
+      CMAKE_EXE_LINKER_FLAGS: ""
+    buildResult:
+      variable: "CMAKE_C_ABI_COMPILED"
+      cached: true
+      stdout: |
+        Change Dir: /media/guan/3CD61590D6154C10/SomeCodes/sensloc_new/poselib/_build/CMakeFiles/CMakeScratch/TryCompile-PjaAmc
+        
+        Run Build Command(s):/home/guan/anaconda3/lib/python3.7/site-packages/cmake/data/bin/cmake -E env VERBOSE=1 /usr/bin/make -f Makefile cmTC_b63e5/fast && /usr/bin/make  -f CMakeFiles/cmTC_b63e5.dir/build.make CMakeFiles/cmTC_b63e5.dir/build
+        make[1]: Entering directory '/media/guan/3CD61590D6154C10/SomeCodes/sensloc_new/poselib/_build/CMakeFiles/CMakeScratch/TryCompile-PjaAmc'
+        Building C object CMakeFiles/cmTC_b63e5.dir/CMakeCCompilerABI.c.o
+        /home/guan/anaconda3/bin/cc   -v -o CMakeFiles/cmTC_b63e5.dir/CMakeCCompilerABI.c.o -c /home/guan/anaconda3/lib/python3.7/site-packages/cmake/data/share/cmake-3.26/Modules/CMakeCCompilerABI.c
+        Reading specs from /home/guan/anaconda3/bin/../lib/gcc/x86_64-conda-linux-gnu/12.1.0/specs
+        could not find specs file conda.specs
+        COLLECT_GCC=/home/guan/anaconda3/bin/cc
+        Target: x86_64-conda-linux-gnu
+        Configured with: ../configure --prefix=/home/conda/feedstock_root/build_artifacts/gcc_compilers_1665882792052/_h_env_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placeho --with-slibdir=/home/conda/feedstock_root/build_artifacts/gcc_compilers_1665882792052/_h_env_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placeho/lib --libdir=/home/conda/feedstock_root/build_artifacts/gcc_compilers_1665882792052/_h_env_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placeho/lib --mandir=/home/conda/feedstock_root/build_artifacts/gcc_compilers_1665882792052/_h_env_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placeho/man --build=x86_64-conda-linux-gnu --host=x86_64-conda-linux-gnu --target=x86_64-conda-linux-gnu --enable-default-pie --enable-languages=c,c++,fortran,objc,obj-c++ --enable-__cxa_atexit --disable-libmudflap --enable-libgomp --disable-libssp --enable-libquadmath --enable-libquadmath-support --enable-libsanitizer --enable-lto --enable-threads=posix --enable-target-optspace --enable-plugin --enable-gold --disable-nls --disable-bootstrap --disable-multilib --enable-long-long --with-sysroot=/home/conda/feedstock_root/build_artifacts/gcc_compilers_1665882792052/_h_env_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placeho/x86_64-conda-linux-gnu/sysroot --with-build-sysroot=/home/conda/feedstock_root/build_artifacts/gcc_compilers_1665882792052/_build_env/x86_64-conda-linux-gnu/sysroot --with-gxx-include-dir=/home/conda/feedstock_root/build_artifacts/gcc_compilers_1665882792052/_h_env_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placeho/x86_64-conda-linux-gnu/include/c++/12.1.0 --with-pkgversion='conda-forge gcc 12.1.0-17' --with-bugurl=https://github.com/conda-forge/ctng-compilers-feedstock/issues/new/choose
+        Thread model: posix
+        Supported LTO compression algorithms: zlib
+        gcc version 12.1.0 (conda-forge gcc 12.1.0-17) 
+        COLLECT_GCC_OPTIONS='-v' '-o' 'CMakeFiles/cmTC_b63e5.dir/CMakeCCompilerABI.c.o' '-c' '-mtune=generic' '-march=x86-64' '-dumpdir' 'CMakeFiles/cmTC_b63e5.dir/'
+         /home/guan/anaconda3/bin/../libexec/gcc/x86_64-conda-linux-gnu/12.1.0/cc1 -quiet -v -iprefix /home/guan/anaconda3/bin/../lib/gcc/x86_64-conda-linux-gnu/12.1.0/ -isysroot /home/guan/anaconda3/bin/../x86_64-conda-linux-gnu/sysroot /home/guan/anaconda3/lib/python3.7/site-packages/cmake/data/share/cmake-3.26/Modules/CMakeCCompilerABI.c -quiet -dumpdir CMakeFiles/cmTC_b63e5.dir/ -dumpbase CMakeCCompilerABI.c.c -dumpbase-ext .c -mtune=generic -march=x86-64 -version -o /tmp/ccEuX0Be.s
+        GNU C17 (conda-forge gcc 12.1.0-17) version 12.1.0 (x86_64-conda-linux-gnu)
+        	compiled by GNU C version 12.1.0, GMP version 6.2.1, MPFR version 4.1.0, MPC version 1.2.1, isl version isl-0.24-GMP
+        
+        GGC heuristics: --param ggc-min-expand=100 --param ggc-min-heapsize=131072
+        ignoring nonexistent directory "/home/guan/anaconda3/bin/../lib/gcc/x86_64-conda-linux-gnu/12.1.0/../../../../x86_64-conda-linux-gnu/include"
+        ignoring duplicate directory "/home/guan/anaconda3/bin/../lib/gcc/../../lib/gcc/x86_64-conda-linux-gnu/12.1.0/include"
+        ignoring nonexistent directory "/home/guan/anaconda3/bin/../x86_64-conda-linux-gnu/sysroot/usr/local/include"
+        ignoring duplicate directory "/home/guan/anaconda3/bin/../lib/gcc/../../lib/gcc/x86_64-conda-linux-gnu/12.1.0/include-fixed"
+        ignoring nonexistent directory "/home/guan/anaconda3/bin/../lib/gcc/../../lib/gcc/x86_64-conda-linux-gnu/12.1.0/../../../../x86_64-conda-linux-gnu/include"
+        #include "..." search starts here:
+        #include <...> search starts here:
+         /home/guan/anaconda3/bin/../lib/gcc/x86_64-conda-linux-gnu/12.1.0/include
+         /home/guan/anaconda3/bin/../lib/gcc/x86_64-conda-linux-gnu/12.1.0/include-fixed
+         /home/guan/anaconda3/bin/../x86_64-conda-linux-gnu/sysroot/usr/include
+        End of search list.
+        GNU C17 (conda-forge gcc 12.1.0-17) version 12.1.0 (x86_64-conda-linux-gnu)
+        	compiled by GNU C version 12.1.0, GMP version 6.2.1, MPFR version 4.1.0, MPC version 1.2.1, isl version isl-0.24-GMP
+        
+        GGC heuristics: --param ggc-min-expand=100 --param ggc-min-heapsize=131072
+        Compiler executable checksum: 948d14387da5abafaa455e4d3c66cea6
+        COLLECT_GCC_OPTIONS='-v' '-o' 'CMakeFiles/cmTC_b63e5.dir/CMakeCCompilerABI.c.o' '-c' '-mtune=generic' '-march=x86-64' '-dumpdir' 'CMakeFiles/cmTC_b63e5.dir/'
+         /home/guan/anaconda3/bin/../lib/gcc/x86_64-conda-linux-gnu/12.1.0/../../../../x86_64-conda-linux-gnu/bin/as -v --64 -o CMakeFiles/cmTC_b63e5.dir/CMakeCCompilerABI.c.o /tmp/ccEuX0Be.s
+        GNU assembler version 2.38 (x86_64-conda-linux-gnu) using BFD version (Anaconda binutils) 2.38
+        COMPILER_PATH=/home/guan/anaconda3/bin/../libexec/gcc/x86_64-conda-linux-gnu/12.1.0/:/home/guan/anaconda3/bin/../libexec/gcc/:/home/guan/anaconda3/bin/../lib/gcc/x86_64-conda-linux-gnu/12.1.0/../../../../x86_64-conda-linux-gnu/bin/
+        LIBRARY_PATH=/home/guan/anaconda3/bin/../lib/gcc/x86_64-conda-linux-gnu/12.1.0/:/home/guan/anaconda3/bin/../lib/gcc/:/usr/local/cuda-11.1/lib64/../lib/:/home/guan/anaconda3/bin/../lib/gcc/x86_64-conda-linux-gnu/12.1.0/../../../../x86_64-conda-linux-gnu/lib/../lib/:/home/guan/anaconda3/bin/../lib/gcc/x86_64-conda-linux-gnu/12.1.0/../../../../lib/:/home/guan/anaconda3/bin/../x86_64-conda-linux-gnu/sysroot/lib/../lib/:/home/guan/anaconda3/bin/../x86_64-conda-linux-gnu/sysroot/usr/lib/../lib/:./:/usr/local/cuda-11.1/lib64/:/home/guan/anaconda3/bin/../lib/gcc/x86_64-conda-linux-gnu/12.1.0/../../../../x86_64-conda-linux-gnu/lib/:/home/guan/anaconda3/bin/../lib/gcc/x86_64-conda-linux-gnu/12.1.0/../../../:/home/guan/anaconda3/bin/../x86_64-conda-linux-gnu/sysroot/lib/:/home/guan/anaconda3/bin/../x86_64-conda-linux-gnu/sysroot/usr/lib/
+        COLLECT_GCC_OPTIONS='-v' '-o' 'CMakeFiles/cmTC_b63e5.dir/CMakeCCompilerABI.c.o' '-c' '-mtune=generic' '-march=x86-64' '-dumpdir' 'CMakeFiles/cmTC_b63e5.dir/CMakeCCompilerABI.c.'
+        Linking C executable cmTC_b63e5
+        /home/guan/anaconda3/lib/python3.7/site-packages/cmake/data/bin/cmake -E cmake_link_script CMakeFiles/cmTC_b63e5.dir/link.txt --verbose=1
+        /home/guan/anaconda3/bin/cc  -v CMakeFiles/cmTC_b63e5.dir/CMakeCCompilerABI.c.o -o cmTC_b63e5 
+        Reading specs from /home/guan/anaconda3/bin/../lib/gcc/x86_64-conda-linux-gnu/12.1.0/specs
+        could not find specs file conda.specs
+        COLLECT_GCC=/home/guan/anaconda3/bin/cc
+        COLLECT_LTO_WRAPPER=/home/guan/anaconda3/bin/../libexec/gcc/x86_64-conda-linux-gnu/12.1.0/lto-wrapper
+        Target: x86_64-conda-linux-gnu
+        Configured with: ../configure --prefix=/home/conda/feedstock_root/build_artifacts/gcc_compilers_1665882792052/_h_env_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placeho --with-slibdir=/home/conda/feedstock_root/build_artifacts/gcc_compilers_1665882792052/_h_env_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placeho/lib --libdir=/home/conda/feedstock_root/build_artifacts/gcc_compilers_1665882792052/_h_env_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placeho/lib --mandir=/home/conda/feedstock_root/build_artifacts/gcc_compilers_1665882792052/_h_env_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placeho/man --build=x86_64-conda-linux-gnu --host=x86_64-conda-linux-gnu --target=x86_64-conda-linux-gnu --enable-default-pie --enable-languages=c,c++,fortran,objc,obj-c++ --enable-__cxa_atexit --disable-libmudflap --enable-libgomp --disable-libssp --enable-libquadmath --enable-libquadmath-support --enable-libsanitizer --enable-lto --enable-threads=posix --enable-target-optspace --enable-plugin --enable-gold --disable-nls --disable-bootstrap --disable-multilib --enable-long-long --with-sysroot=/home/conda/feedstock_root/build_artifacts/gcc_compilers_1665882792052/_h_env_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placeho/x86_64-conda-linux-gnu/sysroot --with-build-sysroot=/home/conda/feedstock_root/build_artifacts/gcc_compilers_1665882792052/_build_env/x86_64-conda-linux-gnu/sysroot --with-gxx-include-dir=/home/conda/feedstock_root/build_artifacts/gcc_compilers_1665882792052/_h_env_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placeho/x86_64-conda-linux-gnu/include/c++/12.1.0 --with-pkgversion='conda-forge gcc 12.1.0-17' --with-bugurl=https://github.com/conda-forge/ctng-compilers-feedstock/issues/new/choose
+        Thread model: posix
+        Supported LTO compression algorithms: zlib
+        gcc version 12.1.0 (conda-forge gcc 12.1.0-17) 
+        COMPILER_PATH=/home/guan/anaconda3/bin/../libexec/gcc/x86_64-conda-linux-gnu/12.1.0/:/home/guan/anaconda3/bin/../libexec/gcc/:/home/guan/anaconda3/bin/../lib/gcc/x86_64-conda-linux-gnu/12.1.0/../../../../x86_64-conda-linux-gnu/bin/
+        LIBRARY_PATH=/home/guan/anaconda3/bin/../lib/gcc/x86_64-conda-linux-gnu/12.1.0/:/home/guan/anaconda3/bin/../lib/gcc/:/usr/local/cuda-11.1/lib64/../lib/:/home/guan/anaconda3/bin/../lib/gcc/x86_64-conda-linux-gnu/12.1.0/../../../../x86_64-conda-linux-gnu/lib/../lib/:/home/guan/anaconda3/bin/../lib/gcc/x86_64-conda-linux-gnu/12.1.0/../../../../lib/:/home/guan/anaconda3/bin/../x86_64-conda-linux-gnu/sysroot/lib/../lib/:/home/guan/anaconda3/bin/../x86_64-conda-linux-gnu/sysroot/usr/lib/../lib/:./:/usr/local/cuda-11.1/lib64/:/home/guan/anaconda3/bin/../lib/gcc/x86_64-conda-linux-gnu/12.1.0/../../../../x86_64-conda-linux-gnu/lib/:/home/guan/anaconda3/bin/../lib/gcc/x86_64-conda-linux-gnu/12.1.0/../../../:/home/guan/anaconda3/bin/../x86_64-conda-linux-gnu/sysroot/lib/:/home/guan/anaconda3/bin/../x86_64-conda-linux-gnu/sysroot/usr/lib/
+        COLLECT_GCC_OPTIONS='-v' '-o' 'cmTC_b63e5' '-mtune=generic' '-march=x86-64' '-dumpdir' 'cmTC_b63e5.'
+         /home/guan/anaconda3/bin/../libexec/gcc/x86_64-conda-linux-gnu/12.1.0/collect2 -plugin /home/guan/anaconda3/bin/../libexec/gcc/x86_64-conda-linux-gnu/12.1.0/liblto_plugin.so -plugin-opt=/home/guan/anaconda3/bin/../libexec/gcc/x86_64-conda-linux-gnu/12.1.0/lto-wrapper -plugin-opt=-fresolution=/tmp/cc4YkEdi.res -plugin-opt=-pass-through=-lgcc -plugin-opt=-pass-through=-lgcc_s -plugin-opt=-pass-through=-lc -plugin-opt=-pass-through=-lgcc -plugin-opt=-pass-through=-lgcc_s --sysroot=/home/guan/anaconda3/bin/../x86_64-conda-linux-gnu/sysroot --eh-frame-hdr -m elf_x86_64 -dynamic-linker /lib64/ld-linux-x86-64.so.2 -pie -o cmTC_b63e5 /home/guan/anaconda3/bin/../x86_64-conda-linux-gnu/sysroot/usr/lib/../lib/Scrt1.o /home/guan/anaconda3/bin/../x86_64-conda-linux-gnu/sysroot/usr/lib/../lib/crti.o /home/guan/anaconda3/bin/../lib/gcc/x86_64-conda-linux-gnu/12.1.0/crtbeginS.o -L/home/guan/anaconda3/bin/../lib/gcc/x86_64-conda-linux-gnu/12.1.0 -L/home/guan/anaconda3/bin/../lib/gcc -L/usr/local/cuda-11.1/lib64/../lib -L/home/guan/anaconda3/bin/../lib/gcc/x86_64-conda-linux-gnu/12.1.0/../../../../x86_64-conda-linux-gnu/lib/../lib -L/home/guan/anaconda3/bin/../lib/gcc/x86_64-conda-linux-gnu/12.1.0/../../../../lib -L/home/guan/anaconda3/bin/../x86_64-conda-linux-gnu/sysroot/lib/../lib -L/home/guan/anaconda3/bin/../x86_64-conda-linux-gnu/sysroot/usr/lib/../lib -L. -L/usr/local/cuda-11.1/lib64 -L/home/guan/anaconda3/bin/../lib/gcc/x86_64-conda-linux-gnu/12.1.0/../../../../x86_64-conda-linux-gnu/lib -L/home/guan/anaconda3/bin/../lib/gcc/x86_64-conda-linux-gnu/12.1.0/../../.. -L/home/guan/anaconda3/bin/../x86_64-conda-linux-gnu/sysroot/lib -L/home/guan/anaconda3/bin/../x86_64-conda-linux-gnu/sysroot/usr/lib CMakeFiles/cmTC_b63e5.dir/CMakeCCompilerABI.c.o -lgcc --push-state --as-needed -lgcc_s --pop-state -lc -lgcc --push-state --as-needed -lgcc_s --pop-state /home/guan/anaconda3/bin/../lib/gcc/x86_64-conda-linux-gnu/12.1.0/crtendS.o /home/guan/anaconda3/bin/../x86_64-conda-linux-gnu/sysroot/usr/lib/../lib/crtn.o -rpath /home/guan/anaconda3/lib
+        COLLECT_GCC_OPTIONS='-v' '-o' 'cmTC_b63e5' '-mtune=generic' '-march=x86-64' '-dumpdir' 'cmTC_b63e5.'
+        make[1]: Leaving directory '/media/guan/3CD61590D6154C10/SomeCodes/sensloc_new/poselib/_build/CMakeFiles/CMakeScratch/TryCompile-PjaAmc'
+        
+      exitCode: 0
+  -
+    kind: "message-v1"
+    backtrace:
+      - "/home/guan/anaconda3/lib/python3.7/site-packages/cmake/data/share/cmake-3.26/Modules/CMakeDetermineCompilerABI.cmake:127 (message)"
+      - "/home/guan/anaconda3/lib/python3.7/site-packages/cmake/data/share/cmake-3.26/Modules/CMakeTestCCompiler.cmake:26 (CMAKE_DETERMINE_COMPILER_ABI)"
+      - "CMakeLists.txt:3 (project)"
+    message: |
+      Parsed C implicit include dir info: rv=done
+        found start of include info
+        found start of implicit include info
+          add: [/home/guan/anaconda3/bin/../lib/gcc/x86_64-conda-linux-gnu/12.1.0/include]
+          add: [/home/guan/anaconda3/bin/../lib/gcc/x86_64-conda-linux-gnu/12.1.0/include-fixed]
+          add: [/home/guan/anaconda3/bin/../x86_64-conda-linux-gnu/sysroot/usr/include]
+        end of search list found
+        collapse include dir [/home/guan/anaconda3/bin/../lib/gcc/x86_64-conda-linux-gnu/12.1.0/include] ==> [/home/guan/anaconda3/lib/gcc/x86_64-conda-linux-gnu/12.1.0/include]
+        collapse include dir [/home/guan/anaconda3/bin/../lib/gcc/x86_64-conda-linux-gnu/12.1.0/include-fixed] ==> [/home/guan/anaconda3/lib/gcc/x86_64-conda-linux-gnu/12.1.0/include-fixed]
+        collapse include dir [/home/guan/anaconda3/bin/../x86_64-conda-linux-gnu/sysroot/usr/include] ==> [/home/guan/anaconda3/x86_64-conda-linux-gnu/sysroot/usr/include]
+        implicit include dirs: [/home/guan/anaconda3/lib/gcc/x86_64-conda-linux-gnu/12.1.0/include;/home/guan/anaconda3/lib/gcc/x86_64-conda-linux-gnu/12.1.0/include-fixed;/home/guan/anaconda3/x86_64-conda-linux-gnu/sysroot/usr/include]
+      
+      
+  -
+    kind: "message-v1"
+    backtrace:
+      - "/home/guan/anaconda3/lib/python3.7/site-packages/cmake/data/share/cmake-3.26/Modules/CMakeDetermineCompilerABI.cmake:152 (message)"
+      - "/home/guan/anaconda3/lib/python3.7/site-packages/cmake/data/share/cmake-3.26/Modules/CMakeTestCCompiler.cmake:26 (CMAKE_DETERMINE_COMPILER_ABI)"
+      - "CMakeLists.txt:3 (project)"
+    message: |
+      Parsed C implicit link information:
+        link line regex: [^( *|.*[/\\])(ld|CMAKE_LINK_STARTFILE-NOTFOUND|([^/\\]+-)?ld|collect2)[^/\\]*( |$)]
+        ignore line: [Change Dir: /media/guan/3CD61590D6154C10/SomeCodes/sensloc_new/poselib/_build/CMakeFiles/CMakeScratch/TryCompile-PjaAmc]
+        ignore line: []
+        ignore line: [Run Build Command(s):/home/guan/anaconda3/lib/python3.7/site-packages/cmake/data/bin/cmake -E env VERBOSE=1 /usr/bin/make -f Makefile cmTC_b63e5/fast && /usr/bin/make  -f CMakeFiles/cmTC_b63e5.dir/build.make CMakeFiles/cmTC_b63e5.dir/build]
+        ignore line: [make[1]: Entering directory '/media/guan/3CD61590D6154C10/SomeCodes/sensloc_new/poselib/_build/CMakeFiles/CMakeScratch/TryCompile-PjaAmc']
+        ignore line: [Building C object CMakeFiles/cmTC_b63e5.dir/CMakeCCompilerABI.c.o]
+        ignore line: [/home/guan/anaconda3/bin/cc   -v -o CMakeFiles/cmTC_b63e5.dir/CMakeCCompilerABI.c.o -c /home/guan/anaconda3/lib/python3.7/site-packages/cmake/data/share/cmake-3.26/Modules/CMakeCCompilerABI.c]
+        ignore line: [Reading specs from /home/guan/anaconda3/bin/../lib/gcc/x86_64-conda-linux-gnu/12.1.0/specs]
+        ignore line: [could not find specs file conda.specs]
+        ignore line: [COLLECT_GCC=/home/guan/anaconda3/bin/cc]
+        ignore line: [Target: x86_64-conda-linux-gnu]
+        ignore line: [Configured with: ../configure --prefix=/home/conda/feedstock_root/build_artifacts/gcc_compilers_1665882792052/_h_env_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placeho --with-slibdir=/home/conda/feedstock_root/build_artifacts/gcc_compilers_1665882792052/_h_env_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placeho/lib --libdir=/home/conda/feedstock_root/build_artifacts/gcc_compilers_1665882792052/_h_env_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placeho/lib --mandir=/home/conda/feedstock_root/build_artifacts/gcc_compilers_1665882792052/_h_env_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placeho/man --build=x86_64-conda-linux-gnu --host=x86_64-conda-linux-gnu --target=x86_64-conda-linux-gnu --enable-default-pie --enable-languages=c c++ fortran objc obj-c++ --enable-__cxa_atexit --disable-libmudflap --enable-libgomp --disable-libssp --enable-libquadmath --enable-libquadmath-support --enable-libsanitizer --enable-lto --enable-threads=posix --enable-target-optspace --enable-plugin --enable-gold --disable-nls --disable-bootstrap --disable-multilib --enable-long-long --with-sysroot=/home/conda/feedstock_root/build_artifacts/gcc_compilers_1665882792052/_h_env_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placeho/x86_64-conda-linux-gnu/sysroot --with-build-sysroot=/home/conda/feedstock_root/build_artifacts/gcc_compilers_1665882792052/_build_env/x86_64-conda-linux-gnu/sysroot --with-gxx-include-dir=/home/conda/feedstock_root/build_artifacts/gcc_compilers_1665882792052/_h_env_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placeho/x86_64-conda-linux-gnu/include/c++/12.1.0 --with-pkgversion='conda-forge gcc 12.1.0-17' --with-bugurl=https://github.com/conda-forge/ctng-compilers-feedstock/issues/new/choose]
+        ignore line: [Thread model: posix]
+        ignore line: [Supported LTO compression algorithms: zlib]
+        ignore line: [gcc version 12.1.0 (conda-forge gcc 12.1.0-17) ]
+        ignore line: [COLLECT_GCC_OPTIONS='-v' '-o' 'CMakeFiles/cmTC_b63e5.dir/CMakeCCompilerABI.c.o' '-c' '-mtune=generic' '-march=x86-64' '-dumpdir' 'CMakeFiles/cmTC_b63e5.dir/']
+        ignore line: [ /home/guan/anaconda3/bin/../libexec/gcc/x86_64-conda-linux-gnu/12.1.0/cc1 -quiet -v -iprefix /home/guan/anaconda3/bin/../lib/gcc/x86_64-conda-linux-gnu/12.1.0/ -isysroot /home/guan/anaconda3/bin/../x86_64-conda-linux-gnu/sysroot /home/guan/anaconda3/lib/python3.7/site-packages/cmake/data/share/cmake-3.26/Modules/CMakeCCompilerABI.c -quiet -dumpdir CMakeFiles/cmTC_b63e5.dir/ -dumpbase CMakeCCompilerABI.c.c -dumpbase-ext .c -mtune=generic -march=x86-64 -version -o /tmp/ccEuX0Be.s]
+        ignore line: [GNU C17 (conda-forge gcc 12.1.0-17) version 12.1.0 (x86_64-conda-linux-gnu)]
+        ignore line: [	compiled by GNU C version 12.1.0  GMP version 6.2.1  MPFR version 4.1.0  MPC version 1.2.1  isl version isl-0.24-GMP]
+        ignore line: []
+        ignore line: [GGC heuristics: --param ggc-min-expand=100 --param ggc-min-heapsize=131072]
+        ignore line: [ignoring nonexistent directory "/home/guan/anaconda3/bin/../lib/gcc/x86_64-conda-linux-gnu/12.1.0/../../../../x86_64-conda-linux-gnu/include"]
+        ignore line: [ignoring duplicate directory "/home/guan/anaconda3/bin/../lib/gcc/../../lib/gcc/x86_64-conda-linux-gnu/12.1.0/include"]
+        ignore line: [ignoring nonexistent directory "/home/guan/anaconda3/bin/../x86_64-conda-linux-gnu/sysroot/usr/local/include"]
+        ignore line: [ignoring duplicate directory "/home/guan/anaconda3/bin/../lib/gcc/../../lib/gcc/x86_64-conda-linux-gnu/12.1.0/include-fixed"]
+        ignore line: [ignoring nonexistent directory "/home/guan/anaconda3/bin/../lib/gcc/../../lib/gcc/x86_64-conda-linux-gnu/12.1.0/../../../../x86_64-conda-linux-gnu/include"]
+        ignore line: [#include "..." search starts here:]
+        ignore line: [#include <...> search starts here:]
+        ignore line: [ /home/guan/anaconda3/bin/../lib/gcc/x86_64-conda-linux-gnu/12.1.0/include]
+        ignore line: [ /home/guan/anaconda3/bin/../lib/gcc/x86_64-conda-linux-gnu/12.1.0/include-fixed]
+        ignore line: [ /home/guan/anaconda3/bin/../x86_64-conda-linux-gnu/sysroot/usr/include]
+        ignore line: [End of search list.]
+        ignore line: [GNU C17 (conda-forge gcc 12.1.0-17) version 12.1.0 (x86_64-conda-linux-gnu)]
+        ignore line: [	compiled by GNU C version 12.1.0  GMP version 6.2.1  MPFR version 4.1.0  MPC version 1.2.1  isl version isl-0.24-GMP]
+        ignore line: []
+        ignore line: [GGC heuristics: --param ggc-min-expand=100 --param ggc-min-heapsize=131072]
+        ignore line: [Compiler executable checksum: 948d14387da5abafaa455e4d3c66cea6]
+        ignore line: [COLLECT_GCC_OPTIONS='-v' '-o' 'CMakeFiles/cmTC_b63e5.dir/CMakeCCompilerABI.c.o' '-c' '-mtune=generic' '-march=x86-64' '-dumpdir' 'CMakeFiles/cmTC_b63e5.dir/']
+        ignore line: [ /home/guan/anaconda3/bin/../lib/gcc/x86_64-conda-linux-gnu/12.1.0/../../../../x86_64-conda-linux-gnu/bin/as -v --64 -o CMakeFiles/cmTC_b63e5.dir/CMakeCCompilerABI.c.o /tmp/ccEuX0Be.s]
+        ignore line: [GNU assembler version 2.38 (x86_64-conda-linux-gnu) using BFD version (Anaconda binutils) 2.38]
+        ignore line: [COMPILER_PATH=/home/guan/anaconda3/bin/../libexec/gcc/x86_64-conda-linux-gnu/12.1.0/:/home/guan/anaconda3/bin/../libexec/gcc/:/home/guan/anaconda3/bin/../lib/gcc/x86_64-conda-linux-gnu/12.1.0/../../../../x86_64-conda-linux-gnu/bin/]
+        ignore line: [LIBRARY_PATH=/home/guan/anaconda3/bin/../lib/gcc/x86_64-conda-linux-gnu/12.1.0/:/home/guan/anaconda3/bin/../lib/gcc/:/usr/local/cuda-11.1/lib64/../lib/:/home/guan/anaconda3/bin/../lib/gcc/x86_64-conda-linux-gnu/12.1.0/../../../../x86_64-conda-linux-gnu/lib/../lib/:/home/guan/anaconda3/bin/../lib/gcc/x86_64-conda-linux-gnu/12.1.0/../../../../lib/:/home/guan/anaconda3/bin/../x86_64-conda-linux-gnu/sysroot/lib/../lib/:/home/guan/anaconda3/bin/../x86_64-conda-linux-gnu/sysroot/usr/lib/../lib/:./:/usr/local/cuda-11.1/lib64/:/home/guan/anaconda3/bin/../lib/gcc/x86_64-conda-linux-gnu/12.1.0/../../../../x86_64-conda-linux-gnu/lib/:/home/guan/anaconda3/bin/../lib/gcc/x86_64-conda-linux-gnu/12.1.0/../../../:/home/guan/anaconda3/bin/../x86_64-conda-linux-gnu/sysroot/lib/:/home/guan/anaconda3/bin/../x86_64-conda-linux-gnu/sysroot/usr/lib/]
+        ignore line: [COLLECT_GCC_OPTIONS='-v' '-o' 'CMakeFiles/cmTC_b63e5.dir/CMakeCCompilerABI.c.o' '-c' '-mtune=generic' '-march=x86-64' '-dumpdir' 'CMakeFiles/cmTC_b63e5.dir/CMakeCCompilerABI.c.']
+        ignore line: [Linking C executable cmTC_b63e5]
+        ignore line: [/home/guan/anaconda3/lib/python3.7/site-packages/cmake/data/bin/cmake -E cmake_link_script CMakeFiles/cmTC_b63e5.dir/link.txt --verbose=1]
+        ignore line: [/home/guan/anaconda3/bin/cc  -v CMakeFiles/cmTC_b63e5.dir/CMakeCCompilerABI.c.o -o cmTC_b63e5 ]
+        ignore line: [Reading specs from /home/guan/anaconda3/bin/../lib/gcc/x86_64-conda-linux-gnu/12.1.0/specs]
+        ignore line: [could not find specs file conda.specs]
+        ignore line: [COLLECT_GCC=/home/guan/anaconda3/bin/cc]
+        ignore line: [COLLECT_LTO_WRAPPER=/home/guan/anaconda3/bin/../libexec/gcc/x86_64-conda-linux-gnu/12.1.0/lto-wrapper]
+        ignore line: [Target: x86_64-conda-linux-gnu]
+        ignore line: [Configured with: ../configure --prefix=/home/conda/feedstock_root/build_artifacts/gcc_compilers_1665882792052/_h_env_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placeho --with-slibdir=/home/conda/feedstock_root/build_artifacts/gcc_compilers_1665882792052/_h_env_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placeho/lib --libdir=/home/conda/feedstock_root/build_artifacts/gcc_compilers_1665882792052/_h_env_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placeho/lib --mandir=/home/conda/feedstock_root/build_artifacts/gcc_compilers_1665882792052/_h_env_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placeho/man --build=x86_64-conda-linux-gnu --host=x86_64-conda-linux-gnu --target=x86_64-conda-linux-gnu --enable-default-pie --enable-languages=c c++ fortran objc obj-c++ --enable-__cxa_atexit --disable-libmudflap --enable-libgomp --disable-libssp --enable-libquadmath --enable-libquadmath-support --enable-libsanitizer --enable-lto --enable-threads=posix --enable-target-optspace --enable-plugin --enable-gold --disable-nls --disable-bootstrap --disable-multilib --enable-long-long --with-sysroot=/home/conda/feedstock_root/build_artifacts/gcc_compilers_1665882792052/_h_env_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placeho/x86_64-conda-linux-gnu/sysroot --with-build-sysroot=/home/conda/feedstock_root/build_artifacts/gcc_compilers_1665882792052/_build_env/x86_64-conda-linux-gnu/sysroot --with-gxx-include-dir=/home/conda/feedstock_root/build_artifacts/gcc_compilers_1665882792052/_h_env_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placeho/x86_64-conda-linux-gnu/include/c++/12.1.0 --with-pkgversion='conda-forge gcc 12.1.0-17' --with-bugurl=https://github.com/conda-forge/ctng-compilers-feedstock/issues/new/choose]
+        ignore line: [Thread model: posix]
+        ignore line: [Supported LTO compression algorithms: zlib]
+        ignore line: [gcc version 12.1.0 (conda-forge gcc 12.1.0-17) ]
+        ignore line: [COMPILER_PATH=/home/guan/anaconda3/bin/../libexec/gcc/x86_64-conda-linux-gnu/12.1.0/:/home/guan/anaconda3/bin/../libexec/gcc/:/home/guan/anaconda3/bin/../lib/gcc/x86_64-conda-linux-gnu/12.1.0/../../../../x86_64-conda-linux-gnu/bin/]
+        ignore line: [LIBRARY_PATH=/home/guan/anaconda3/bin/../lib/gcc/x86_64-conda-linux-gnu/12.1.0/:/home/guan/anaconda3/bin/../lib/gcc/:/usr/local/cuda-11.1/lib64/../lib/:/home/guan/anaconda3/bin/../lib/gcc/x86_64-conda-linux-gnu/12.1.0/../../../../x86_64-conda-linux-gnu/lib/../lib/:/home/guan/anaconda3/bin/../lib/gcc/x86_64-conda-linux-gnu/12.1.0/../../../../lib/:/home/guan/anaconda3/bin/../x86_64-conda-linux-gnu/sysroot/lib/../lib/:/home/guan/anaconda3/bin/../x86_64-conda-linux-gnu/sysroot/usr/lib/../lib/:./:/usr/local/cuda-11.1/lib64/:/home/guan/anaconda3/bin/../lib/gcc/x86_64-conda-linux-gnu/12.1.0/../../../../x86_64-conda-linux-gnu/lib/:/home/guan/anaconda3/bin/../lib/gcc/x86_64-conda-linux-gnu/12.1.0/../../../:/home/guan/anaconda3/bin/../x86_64-conda-linux-gnu/sysroot/lib/:/home/guan/anaconda3/bin/../x86_64-conda-linux-gnu/sysroot/usr/lib/]
+        ignore line: [COLLECT_GCC_OPTIONS='-v' '-o' 'cmTC_b63e5' '-mtune=generic' '-march=x86-64' '-dumpdir' 'cmTC_b63e5.']
+        link line: [ /home/guan/anaconda3/bin/../libexec/gcc/x86_64-conda-linux-gnu/12.1.0/collect2 -plugin /home/guan/anaconda3/bin/../libexec/gcc/x86_64-conda-linux-gnu/12.1.0/liblto_plugin.so -plugin-opt=/home/guan/anaconda3/bin/../libexec/gcc/x86_64-conda-linux-gnu/12.1.0/lto-wrapper -plugin-opt=-fresolution=/tmp/cc4YkEdi.res -plugin-opt=-pass-through=-lgcc -plugin-opt=-pass-through=-lgcc_s -plugin-opt=-pass-through=-lc -plugin-opt=-pass-through=-lgcc -plugin-opt=-pass-through=-lgcc_s --sysroot=/home/guan/anaconda3/bin/../x86_64-conda-linux-gnu/sysroot --eh-frame-hdr -m elf_x86_64 -dynamic-linker /lib64/ld-linux-x86-64.so.2 -pie -o cmTC_b63e5 /home/guan/anaconda3/bin/../x86_64-conda-linux-gnu/sysroot/usr/lib/../lib/Scrt1.o /home/guan/anaconda3/bin/../x86_64-conda-linux-gnu/sysroot/usr/lib/../lib/crti.o /home/guan/anaconda3/bin/../lib/gcc/x86_64-conda-linux-gnu/12.1.0/crtbeginS.o -L/home/guan/anaconda3/bin/../lib/gcc/x86_64-conda-linux-gnu/12.1.0 -L/home/guan/anaconda3/bin/../lib/gcc -L/usr/local/cuda-11.1/lib64/../lib -L/home/guan/anaconda3/bin/../lib/gcc/x86_64-conda-linux-gnu/12.1.0/../../../../x86_64-conda-linux-gnu/lib/../lib -L/home/guan/anaconda3/bin/../lib/gcc/x86_64-conda-linux-gnu/12.1.0/../../../../lib -L/home/guan/anaconda3/bin/../x86_64-conda-linux-gnu/sysroot/lib/../lib -L/home/guan/anaconda3/bin/../x86_64-conda-linux-gnu/sysroot/usr/lib/../lib -L. -L/usr/local/cuda-11.1/lib64 -L/home/guan/anaconda3/bin/../lib/gcc/x86_64-conda-linux-gnu/12.1.0/../../../../x86_64-conda-linux-gnu/lib -L/home/guan/anaconda3/bin/../lib/gcc/x86_64-conda-linux-gnu/12.1.0/../../.. -L/home/guan/anaconda3/bin/../x86_64-conda-linux-gnu/sysroot/lib -L/home/guan/anaconda3/bin/../x86_64-conda-linux-gnu/sysroot/usr/lib CMakeFiles/cmTC_b63e5.dir/CMakeCCompilerABI.c.o -lgcc --push-state --as-needed -lgcc_s --pop-state -lc -lgcc --push-state --as-needed -lgcc_s --pop-state /home/guan/anaconda3/bin/../lib/gcc/x86_64-conda-linux-gnu/12.1.0/crtendS.o /home/guan/anaconda3/bin/../x86_64-conda-linux-gnu/sysroot/usr/lib/../lib/crtn.o -rpath /home/guan/anaconda3/lib]
+          arg [/home/guan/anaconda3/bin/../libexec/gcc/x86_64-conda-linux-gnu/12.1.0/collect2] ==> ignore
+          arg [-plugin] ==> ignore
+          arg [/home/guan/anaconda3/bin/../libexec/gcc/x86_64-conda-linux-gnu/12.1.0/liblto_plugin.so] ==> ignore
+          arg [-plugin-opt=/home/guan/anaconda3/bin/../libexec/gcc/x86_64-conda-linux-gnu/12.1.0/lto-wrapper] ==> ignore
+          arg [-plugin-opt=-fresolution=/tmp/cc4YkEdi.res] ==> ignore
+          arg [-plugin-opt=-pass-through=-lgcc] ==> ignore
+          arg [-plugin-opt=-pass-through=-lgcc_s] ==> ignore
+          arg [-plugin-opt=-pass-through=-lc] ==> ignore
+          arg [-plugin-opt=-pass-through=-lgcc] ==> ignore
+          arg [-plugin-opt=-pass-through=-lgcc_s] ==> ignore
+          arg [--sysroot=/home/guan/anaconda3/bin/../x86_64-conda-linux-gnu/sysroot] ==> ignore
+          arg [--eh-frame-hdr] ==> ignore
+          arg [-m] ==> ignore
+          arg [elf_x86_64] ==> ignore
+          arg [-dynamic-linker] ==> ignore
+          arg [/lib64/ld-linux-x86-64.so.2] ==> ignore
+          arg [-pie] ==> ignore
+          arg [-o] ==> ignore
+          arg [cmTC_b63e5] ==> ignore
+          arg [/home/guan/anaconda3/bin/../x86_64-conda-linux-gnu/sysroot/usr/lib/../lib/Scrt1.o] ==> obj [/home/guan/anaconda3/bin/../x86_64-conda-linux-gnu/sysroot/usr/lib/../lib/Scrt1.o]
+          arg [/home/guan/anaconda3/bin/../x86_64-conda-linux-gnu/sysroot/usr/lib/../lib/crti.o] ==> obj [/home/guan/anaconda3/bin/../x86_64-conda-linux-gnu/sysroot/usr/lib/../lib/crti.o]
+          arg [/home/guan/anaconda3/bin/../lib/gcc/x86_64-conda-linux-gnu/12.1.0/crtbeginS.o] ==> obj [/home/guan/anaconda3/bin/../lib/gcc/x86_64-conda-linux-gnu/12.1.0/crtbeginS.o]
+          arg [-L/home/guan/anaconda3/bin/../lib/gcc/x86_64-conda-linux-gnu/12.1.0] ==> dir [/home/guan/anaconda3/bin/../lib/gcc/x86_64-conda-linux-gnu/12.1.0]
+          arg [-L/home/guan/anaconda3/bin/../lib/gcc] ==> dir [/home/guan/anaconda3/bin/../lib/gcc]
+          arg [-L/usr/local/cuda-11.1/lib64/../lib] ==> dir [/usr/local/cuda-11.1/lib64/../lib]
+          arg [-L/home/guan/anaconda3/bin/../lib/gcc/x86_64-conda-linux-gnu/12.1.0/../../../../x86_64-conda-linux-gnu/lib/../lib] ==> dir [/home/guan/anaconda3/bin/../lib/gcc/x86_64-conda-linux-gnu/12.1.0/../../../../x86_64-conda-linux-gnu/lib/../lib]
+          arg [-L/home/guan/anaconda3/bin/../lib/gcc/x86_64-conda-linux-gnu/12.1.0/../../../../lib] ==> dir [/home/guan/anaconda3/bin/../lib/gcc/x86_64-conda-linux-gnu/12.1.0/../../../../lib]
+          arg [-L/home/guan/anaconda3/bin/../x86_64-conda-linux-gnu/sysroot/lib/../lib] ==> dir [/home/guan/anaconda3/bin/../x86_64-conda-linux-gnu/sysroot/lib/../lib]
+          arg [-L/home/guan/anaconda3/bin/../x86_64-conda-linux-gnu/sysroot/usr/lib/../lib] ==> dir [/home/guan/anaconda3/bin/../x86_64-conda-linux-gnu/sysroot/usr/lib/../lib]
+          arg [-L.] ==> ignore
+          arg [-L/usr/local/cuda-11.1/lib64] ==> dir [/usr/local/cuda-11.1/lib64]
+          arg [-L/home/guan/anaconda3/bin/../lib/gcc/x86_64-conda-linux-gnu/12.1.0/../../../../x86_64-conda-linux-gnu/lib] ==> dir [/home/guan/anaconda3/bin/../lib/gcc/x86_64-conda-linux-gnu/12.1.0/../../../../x86_64-conda-linux-gnu/lib]
+          arg [-L/home/guan/anaconda3/bin/../lib/gcc/x86_64-conda-linux-gnu/12.1.0/../../..] ==> dir [/home/guan/anaconda3/bin/../lib/gcc/x86_64-conda-linux-gnu/12.1.0/../../..]
+          arg [-L/home/guan/anaconda3/bin/../x86_64-conda-linux-gnu/sysroot/lib] ==> dir [/home/guan/anaconda3/bin/../x86_64-conda-linux-gnu/sysroot/lib]
+          arg [-L/home/guan/anaconda3/bin/../x86_64-conda-linux-gnu/sysroot/usr/lib] ==> dir [/home/guan/anaconda3/bin/../x86_64-conda-linux-gnu/sysroot/usr/lib]
+          arg [CMakeFiles/cmTC_b63e5.dir/CMakeCCompilerABI.c.o] ==> ignore
+          arg [-lgcc] ==> lib [gcc]
+          arg [--push-state] ==> ignore
+          arg [--as-needed] ==> ignore
+          arg [-lgcc_s] ==> lib [gcc_s]
+          arg [--pop-state] ==> ignore
+          arg [-lc] ==> lib [c]
+          arg [-lgcc] ==> lib [gcc]
+          arg [--push-state] ==> ignore
+          arg [--as-needed] ==> ignore
+          arg [-lgcc_s] ==> lib [gcc_s]
+          arg [--pop-state] ==> ignore
+          arg [/home/guan/anaconda3/bin/../lib/gcc/x86_64-conda-linux-gnu/12.1.0/crtendS.o] ==> obj [/home/guan/anaconda3/bin/../lib/gcc/x86_64-conda-linux-gnu/12.1.0/crtendS.o]
+          arg [/home/guan/anaconda3/bin/../x86_64-conda-linux-gnu/sysroot/usr/lib/../lib/crtn.o] ==> obj [/home/guan/anaconda3/bin/../x86_64-conda-linux-gnu/sysroot/usr/lib/../lib/crtn.o]
+          arg [-rpath] ==> ignore
+          arg [/home/guan/anaconda3/lib] ==> ignore
+        collapse obj [/home/guan/anaconda3/bin/../x86_64-conda-linux-gnu/sysroot/usr/lib/../lib/Scrt1.o] ==> [/home/guan/anaconda3/x86_64-conda-linux-gnu/sysroot/usr/lib/Scrt1.o]
+        collapse obj [/home/guan/anaconda3/bin/../x86_64-conda-linux-gnu/sysroot/usr/lib/../lib/crti.o] ==> [/home/guan/anaconda3/x86_64-conda-linux-gnu/sysroot/usr/lib/crti.o]
+        collapse obj [/home/guan/anaconda3/bin/../lib/gcc/x86_64-conda-linux-gnu/12.1.0/crtbeginS.o] ==> [/home/guan/anaconda3/lib/gcc/x86_64-conda-linux-gnu/12.1.0/crtbeginS.o]
+        collapse obj [/home/guan/anaconda3/bin/../lib/gcc/x86_64-conda-linux-gnu/12.1.0/crtendS.o] ==> [/home/guan/anaconda3/lib/gcc/x86_64-conda-linux-gnu/12.1.0/crtendS.o]
+        collapse obj [/home/guan/anaconda3/bin/../x86_64-conda-linux-gnu/sysroot/usr/lib/../lib/crtn.o] ==> [/home/guan/anaconda3/x86_64-conda-linux-gnu/sysroot/usr/lib/crtn.o]
+        collapse library dir [/home/guan/anaconda3/bin/../lib/gcc/x86_64-conda-linux-gnu/12.1.0] ==> [/home/guan/anaconda3/lib/gcc/x86_64-conda-linux-gnu/12.1.0]
+        collapse library dir [/home/guan/anaconda3/bin/../lib/gcc] ==> [/home/guan/anaconda3/lib/gcc]
+        collapse library dir [/usr/local/cuda-11.1/lib64/../lib] ==> [/usr/local/cuda-11.1/lib]
+        collapse library dir [/home/guan/anaconda3/bin/../lib/gcc/x86_64-conda-linux-gnu/12.1.0/../../../../x86_64-conda-linux-gnu/lib/../lib] ==> [/home/guan/anaconda3/x86_64-conda-linux-gnu/lib]
+        collapse library dir [/home/guan/anaconda3/bin/../lib/gcc/x86_64-conda-linux-gnu/12.1.0/../../../../lib] ==> [/home/guan/anaconda3/lib]
+        collapse library dir [/home/guan/anaconda3/bin/../x86_64-conda-linux-gnu/sysroot/lib/../lib] ==> [/home/guan/anaconda3/x86_64-conda-linux-gnu/sysroot/lib]
+        collapse library dir [/home/guan/anaconda3/bin/../x86_64-conda-linux-gnu/sysroot/usr/lib/../lib] ==> [/home/guan/anaconda3/x86_64-conda-linux-gnu/sysroot/usr/lib]
+        collapse library dir [/usr/local/cuda-11.1/lib64] ==> [/usr/local/cuda-11.1/lib64]
+        collapse library dir [/home/guan/anaconda3/bin/../lib/gcc/x86_64-conda-linux-gnu/12.1.0/../../../../x86_64-conda-linux-gnu/lib] ==> [/home/guan/anaconda3/x86_64-conda-linux-gnu/lib]
+        collapse library dir [/home/guan/anaconda3/bin/../lib/gcc/x86_64-conda-linux-gnu/12.1.0/../../..] ==> [/home/guan/anaconda3/lib]
+        collapse library dir [/home/guan/anaconda3/bin/../x86_64-conda-linux-gnu/sysroot/lib] ==> [/home/guan/anaconda3/x86_64-conda-linux-gnu/sysroot/lib]
+        collapse library dir [/home/guan/anaconda3/bin/../x86_64-conda-linux-gnu/sysroot/usr/lib] ==> [/home/guan/anaconda3/x86_64-conda-linux-gnu/sysroot/usr/lib]
+        implicit libs: [gcc;gcc_s;c;gcc;gcc_s]
+        implicit objs: [/home/guan/anaconda3/x86_64-conda-linux-gnu/sysroot/usr/lib/Scrt1.o;/home/guan/anaconda3/x86_64-conda-linux-gnu/sysroot/usr/lib/crti.o;/home/guan/anaconda3/lib/gcc/x86_64-conda-linux-gnu/12.1.0/crtbeginS.o;/home/guan/anaconda3/lib/gcc/x86_64-conda-linux-gnu/12.1.0/crtendS.o;/home/guan/anaconda3/x86_64-conda-linux-gnu/sysroot/usr/lib/crtn.o]
+        implicit dirs: [/home/guan/anaconda3/lib/gcc/x86_64-conda-linux-gnu/12.1.0;/home/guan/anaconda3/lib/gcc;/usr/local/cuda-11.1/lib;/home/guan/anaconda3/x86_64-conda-linux-gnu/lib;/home/guan/anaconda3/lib;/home/guan/anaconda3/x86_64-conda-linux-gnu/sysroot/lib;/home/guan/anaconda3/x86_64-conda-linux-gnu/sysroot/usr/lib;/usr/local/cuda-11.1/lib64]
+        implicit fwks: []
+      
+      
+  -
+    kind: "try_compile-v1"
+    backtrace:
+      - "/home/guan/anaconda3/lib/python3.7/site-packages/cmake/data/share/cmake-3.26/Modules/CMakeDetermineCompilerABI.cmake:57 (try_compile)"
+      - "/home/guan/anaconda3/lib/python3.7/site-packages/cmake/data/share/cmake-3.26/Modules/CMakeTestCXXCompiler.cmake:26 (CMAKE_DETERMINE_COMPILER_ABI)"
+      - "CMakeLists.txt:3 (project)"
+    checks:
+      - "Detecting CXX compiler ABI info"
+    directories:
+      source: "/media/guan/3CD61590D6154C10/SomeCodes/sensloc_new/poselib/_build/CMakeFiles/CMakeScratch/TryCompile-GIXKVe"
+      binary: "/media/guan/3CD61590D6154C10/SomeCodes/sensloc_new/poselib/_build/CMakeFiles/CMakeScratch/TryCompile-GIXKVe"
+    cmakeVariables:
+      CMAKE_CXX_FLAGS: ""
+      CMAKE_CXX_FLAGS_DEBUG: "-g"
+      CMAKE_EXE_LINKER_FLAGS: ""
+    buildResult:
+      variable: "CMAKE_CXX_ABI_COMPILED"
+      cached: true
+      stdout: |
+        Change Dir: /media/guan/3CD61590D6154C10/SomeCodes/sensloc_new/poselib/_build/CMakeFiles/CMakeScratch/TryCompile-GIXKVe
+        
+        Run Build Command(s):/home/guan/anaconda3/lib/python3.7/site-packages/cmake/data/bin/cmake -E env VERBOSE=1 /usr/bin/make -f Makefile cmTC_cf688/fast && /usr/bin/make  -f CMakeFiles/cmTC_cf688.dir/build.make CMakeFiles/cmTC_cf688.dir/build
+        make[1]: Entering directory '/media/guan/3CD61590D6154C10/SomeCodes/sensloc_new/poselib/_build/CMakeFiles/CMakeScratch/TryCompile-GIXKVe'
+        Building CXX object CMakeFiles/cmTC_cf688.dir/CMakeCXXCompilerABI.cpp.o
+        /usr/bin/c++   -v -o CMakeFiles/cmTC_cf688.dir/CMakeCXXCompilerABI.cpp.o -c /home/guan/anaconda3/lib/python3.7/site-packages/cmake/data/share/cmake-3.26/Modules/CMakeCXXCompilerABI.cpp
+        Using built-in specs.
+        COLLECT_GCC=/usr/bin/c++
+        OFFLOAD_TARGET_NAMES=nvptx-none
+        OFFLOAD_TARGET_DEFAULT=1
+        Target: x86_64-linux-gnu
+        Configured with: ../src/configure -v --with-pkgversion='Ubuntu 7.5.0-3ubuntu1~18.04' --with-bugurl=file:///usr/share/doc/gcc-7/README.Bugs --enable-languages=c,ada,c++,go,brig,d,fortran,objc,obj-c++ --prefix=/usr --with-gcc-major-version-only --program-suffix=-7 --program-prefix=x86_64-linux-gnu- --enable-shared --enable-linker-build-id --libexecdir=/usr/lib --without-included-gettext --enable-threads=posix --libdir=/usr/lib --enable-nls --enable-bootstrap --enable-clocale=gnu --enable-libstdcxx-debug --enable-libstdcxx-time=yes --with-default-libstdcxx-abi=new --enable-gnu-unique-object --disable-vtable-verify --enable-libmpx --enable-plugin --enable-default-pie --with-system-zlib --with-target-system-zlib --enable-objc-gc=auto --enable-multiarch --disable-werror --with-arch-32=i686 --with-abi=m64 --with-multilib-list=m32,m64,mx32 --enable-multilib --with-tune=generic --enable-offload-targets=nvptx-none --without-cuda-driver --enable-checking=release --build=x86_64-linux-gnu --host=x86_64-linux-gnu --target=x86_64-linux-gnu
+        Thread model: posix
+        gcc version 7.5.0 (Ubuntu 7.5.0-3ubuntu1~18.04) 
+        COLLECT_GCC_OPTIONS='-v' '-o' 'CMakeFiles/cmTC_cf688.dir/CMakeCXXCompilerABI.cpp.o' '-c' '-shared-libgcc' '-mtune=generic' '-march=x86-64'
+         /usr/lib/gcc/x86_64-linux-gnu/7/cc1plus -quiet -v -imultiarch x86_64-linux-gnu -D_GNU_SOURCE /home/guan/anaconda3/lib/python3.7/site-packages/cmake/data/share/cmake-3.26/Modules/CMakeCXXCompilerABI.cpp -quiet -dumpbase CMakeCXXCompilerABI.cpp -mtune=generic -march=x86-64 -auxbase-strip CMakeFiles/cmTC_cf688.dir/CMakeCXXCompilerABI.cpp.o -version -fstack-protector-strong -Wformat -Wformat-security -o /tmp/ccoy7LGe.s
+        GNU C++14 (Ubuntu 7.5.0-3ubuntu1~18.04) version 7.5.0 (x86_64-linux-gnu)
+        	compiled by GNU C version 7.5.0, GMP version 6.1.2, MPFR version 4.0.1, MPC version 1.1.0, isl version isl-0.19-GMP
+        
+        GGC heuristics: --param ggc-min-expand=100 --param ggc-min-heapsize=131072
+        ignoring duplicate directory "/usr/include/x86_64-linux-gnu/c++/7"
+        ignoring nonexistent directory "/usr/local/include/x86_64-linux-gnu"
+        ignoring nonexistent directory "/usr/lib/gcc/x86_64-linux-gnu/7/../../../../x86_64-linux-gnu/include"
+        #include "..." search starts here:
+        #include <...> search starts here:
+         /usr/include/c++/7
+         /usr/include/x86_64-linux-gnu/c++/7
+         /usr/include/c++/7/backward
+         /usr/lib/gcc/x86_64-linux-gnu/7/include
+         /usr/local/include
+         /usr/lib/gcc/x86_64-linux-gnu/7/include-fixed
+         /usr/include/x86_64-linux-gnu
+         /usr/include
+        End of search list.
+        GNU C++14 (Ubuntu 7.5.0-3ubuntu1~18.04) version 7.5.0 (x86_64-linux-gnu)
+        	compiled by GNU C version 7.5.0, GMP version 6.1.2, MPFR version 4.0.1, MPC version 1.1.0, isl version isl-0.19-GMP
+        
+        GGC heuristics: --param ggc-min-expand=100 --param ggc-min-heapsize=131072
+        Compiler executable checksum: 3eb3dc290cd5714c3e1c3ae751116f07
+        COLLECT_GCC_OPTIONS='-v' '-o' 'CMakeFiles/cmTC_cf688.dir/CMakeCXXCompilerABI.cpp.o' '-c' '-shared-libgcc' '-mtune=generic' '-march=x86-64'
+         as -v --64 -o CMakeFiles/cmTC_cf688.dir/CMakeCXXCompilerABI.cpp.o /tmp/ccoy7LGe.s
+        GNU assembler version 2.38 (x86_64-conda-linux-gnu) using BFD version (Anaconda binutils) 2.38
+        COMPILER_PATH=/usr/lib/gcc/x86_64-linux-gnu/7/:/usr/lib/gcc/x86_64-linux-gnu/7/:/usr/lib/gcc/x86_64-linux-gnu/:/usr/lib/gcc/x86_64-linux-gnu/7/:/usr/lib/gcc/x86_64-linux-gnu/
+        LIBRARY_PATH=/usr/local/cuda-11.1/lib64/../lib/:/usr/lib/gcc/x86_64-linux-gnu/7/:/usr/lib/gcc/x86_64-linux-gnu/7/../../../x86_64-linux-gnu/:/usr/lib/gcc/x86_64-linux-gnu/7/../../../../lib/:/lib/x86_64-linux-gnu/:/lib/../lib/:/usr/lib/x86_64-linux-gnu/:/usr/lib/../lib/:./:/usr/local/cuda-11.1/lib64/:/usr/lib/gcc/x86_64-linux-gnu/7/../../../:/lib/:/usr/lib/
+        COLLECT_GCC_OPTIONS='-v' '-o' 'CMakeFiles/cmTC_cf688.dir/CMakeCXXCompilerABI.cpp.o' '-c' '-shared-libgcc' '-mtune=generic' '-march=x86-64'
+        Linking CXX executable cmTC_cf688
+        /home/guan/anaconda3/lib/python3.7/site-packages/cmake/data/bin/cmake -E cmake_link_script CMakeFiles/cmTC_cf688.dir/link.txt --verbose=1
+        /usr/bin/c++  -v CMakeFiles/cmTC_cf688.dir/CMakeCXXCompilerABI.cpp.o -o cmTC_cf688 
+        Using built-in specs.
+        COLLECT_GCC=/usr/bin/c++
+        COLLECT_LTO_WRAPPER=/usr/lib/gcc/x86_64-linux-gnu/7/lto-wrapper
+        OFFLOAD_TARGET_NAMES=nvptx-none
+        OFFLOAD_TARGET_DEFAULT=1
+        Target: x86_64-linux-gnu
+        Configured with: ../src/configure -v --with-pkgversion='Ubuntu 7.5.0-3ubuntu1~18.04' --with-bugurl=file:///usr/share/doc/gcc-7/README.Bugs --enable-languages=c,ada,c++,go,brig,d,fortran,objc,obj-c++ --prefix=/usr --with-gcc-major-version-only --program-suffix=-7 --program-prefix=x86_64-linux-gnu- --enable-shared --enable-linker-build-id --libexecdir=/usr/lib --without-included-gettext --enable-threads=posix --libdir=/usr/lib --enable-nls --enable-bootstrap --enable-clocale=gnu --enable-libstdcxx-debug --enable-libstdcxx-time=yes --with-default-libstdcxx-abi=new --enable-gnu-unique-object --disable-vtable-verify --enable-libmpx --enable-plugin --enable-default-pie --with-system-zlib --with-target-system-zlib --enable-objc-gc=auto --enable-multiarch --disable-werror --with-arch-32=i686 --with-abi=m64 --with-multilib-list=m32,m64,mx32 --enable-multilib --with-tune=generic --enable-offload-targets=nvptx-none --without-cuda-driver --enable-checking=release --build=x86_64-linux-gnu --host=x86_64-linux-gnu --target=x86_64-linux-gnu
+        Thread model: posix
+        gcc version 7.5.0 (Ubuntu 7.5.0-3ubuntu1~18.04) 
+        COMPILER_PATH=/usr/lib/gcc/x86_64-linux-gnu/7/:/usr/lib/gcc/x86_64-linux-gnu/7/:/usr/lib/gcc/x86_64-linux-gnu/:/usr/lib/gcc/x86_64-linux-gnu/7/:/usr/lib/gcc/x86_64-linux-gnu/
+        LIBRARY_PATH=/usr/local/cuda-11.1/lib64/../lib/:/usr/lib/gcc/x86_64-linux-gnu/7/:/usr/lib/gcc/x86_64-linux-gnu/7/../../../x86_64-linux-gnu/:/usr/lib/gcc/x86_64-linux-gnu/7/../../../../lib/:/lib/x86_64-linux-gnu/:/lib/../lib/:/usr/lib/x86_64-linux-gnu/:/usr/lib/../lib/:./:/usr/local/cuda-11.1/lib64/:/usr/lib/gcc/x86_64-linux-gnu/7/../../../:/lib/:/usr/lib/
+        COLLECT_GCC_OPTIONS='-v' '-o' 'cmTC_cf688' '-shared-libgcc' '-mtune=generic' '-march=x86-64'
+         /usr/lib/gcc/x86_64-linux-gnu/7/collect2 -plugin /usr/lib/gcc/x86_64-linux-gnu/7/liblto_plugin.so -plugin-opt=/usr/lib/gcc/x86_64-linux-gnu/7/lto-wrapper -plugin-opt=-fresolution=/tmp/ccoOlfQd.res -plugin-opt=-pass-through=-lgcc_s -plugin-opt=-pass-through=-lgcc -plugin-opt=-pass-through=-lc -plugin-opt=-pass-through=-lgcc_s -plugin-opt=-pass-through=-lgcc --build-id --eh-frame-hdr -m elf_x86_64 --hash-style=gnu --as-needed -dynamic-linker /lib64/ld-linux-x86-64.so.2 -pie -z now -z relro -o cmTC_cf688 /usr/lib/gcc/x86_64-linux-gnu/7/../../../x86_64-linux-gnu/Scrt1.o /usr/lib/gcc/x86_64-linux-gnu/7/../../../x86_64-linux-gnu/crti.o /usr/lib/gcc/x86_64-linux-gnu/7/crtbeginS.o -L/usr/local/cuda-11.1/lib64/../lib -L/usr/lib/gcc/x86_64-linux-gnu/7 -L/usr/lib/gcc/x86_64-linux-gnu/7/../../../x86_64-linux-gnu -L/usr/lib/gcc/x86_64-linux-gnu/7/../../../../lib -L/lib/x86_64-linux-gnu -L/lib/../lib -L/usr/lib/x86_64-linux-gnu -L/usr/lib/../lib -L. -L/usr/local/cuda-11.1/lib64 -L/usr/lib/gcc/x86_64-linux-gnu/7/../../.. CMakeFiles/cmTC_cf688.dir/CMakeCXXCompilerABI.cpp.o -lstdc++ -lm -lgcc_s -lgcc -lc -lgcc_s -lgcc /usr/lib/gcc/x86_64-linux-gnu/7/crtendS.o /usr/lib/gcc/x86_64-linux-gnu/7/../../../x86_64-linux-gnu/crtn.o
+        COLLECT_GCC_OPTIONS='-v' '-o' 'cmTC_cf688' '-shared-libgcc' '-mtune=generic' '-march=x86-64'
+        make[1]: Leaving directory '/media/guan/3CD61590D6154C10/SomeCodes/sensloc_new/poselib/_build/CMakeFiles/CMakeScratch/TryCompile-GIXKVe'
+        
+      exitCode: 0
+  -
+    kind: "message-v1"
+    backtrace:
+      - "/home/guan/anaconda3/lib/python3.7/site-packages/cmake/data/share/cmake-3.26/Modules/CMakeDetermineCompilerABI.cmake:127 (message)"
+      - "/home/guan/anaconda3/lib/python3.7/site-packages/cmake/data/share/cmake-3.26/Modules/CMakeTestCXXCompiler.cmake:26 (CMAKE_DETERMINE_COMPILER_ABI)"
+      - "CMakeLists.txt:3 (project)"
+    message: |
+      Parsed CXX implicit include dir info: rv=done
+        found start of include info
+        found start of implicit include info
+          add: [/usr/include/c++/7]
+          add: [/usr/include/x86_64-linux-gnu/c++/7]
+          add: [/usr/include/c++/7/backward]
+          add: [/usr/lib/gcc/x86_64-linux-gnu/7/include]
+          add: [/usr/local/include]
+          add: [/usr/lib/gcc/x86_64-linux-gnu/7/include-fixed]
+          add: [/usr/include/x86_64-linux-gnu]
+          add: [/usr/include]
+        end of search list found
+        collapse include dir [/usr/include/c++/7] ==> [/usr/include/c++/7]
+        collapse include dir [/usr/include/x86_64-linux-gnu/c++/7] ==> [/usr/include/x86_64-linux-gnu/c++/7]
+        collapse include dir [/usr/include/c++/7/backward] ==> [/usr/include/c++/7/backward]
+        collapse include dir [/usr/lib/gcc/x86_64-linux-gnu/7/include] ==> [/usr/lib/gcc/x86_64-linux-gnu/7/include]
+        collapse include dir [/usr/local/include] ==> [/usr/local/include]
+        collapse include dir [/usr/lib/gcc/x86_64-linux-gnu/7/include-fixed] ==> [/usr/lib/gcc/x86_64-linux-gnu/7/include-fixed]
+        collapse include dir [/usr/include/x86_64-linux-gnu] ==> [/usr/include/x86_64-linux-gnu]
+        collapse include dir [/usr/include] ==> [/usr/include]
+        implicit include dirs: [/usr/include/c++/7;/usr/include/x86_64-linux-gnu/c++/7;/usr/include/c++/7/backward;/usr/lib/gcc/x86_64-linux-gnu/7/include;/usr/local/include;/usr/lib/gcc/x86_64-linux-gnu/7/include-fixed;/usr/include/x86_64-linux-gnu;/usr/include]
+      
+      
+  -
+    kind: "message-v1"
+    backtrace:
+      - "/home/guan/anaconda3/lib/python3.7/site-packages/cmake/data/share/cmake-3.26/Modules/CMakeDetermineCompilerABI.cmake:152 (message)"
+      - "/home/guan/anaconda3/lib/python3.7/site-packages/cmake/data/share/cmake-3.26/Modules/CMakeTestCXXCompiler.cmake:26 (CMAKE_DETERMINE_COMPILER_ABI)"
+      - "CMakeLists.txt:3 (project)"
+    message: |
+      Parsed CXX implicit link information:
+        link line regex: [^( *|.*[/\\])(ld|CMAKE_LINK_STARTFILE-NOTFOUND|([^/\\]+-)?ld|collect2)[^/\\]*( |$)]
+        ignore line: [Change Dir: /media/guan/3CD61590D6154C10/SomeCodes/sensloc_new/poselib/_build/CMakeFiles/CMakeScratch/TryCompile-GIXKVe]
+        ignore line: []
+        ignore line: [Run Build Command(s):/home/guan/anaconda3/lib/python3.7/site-packages/cmake/data/bin/cmake -E env VERBOSE=1 /usr/bin/make -f Makefile cmTC_cf688/fast && /usr/bin/make  -f CMakeFiles/cmTC_cf688.dir/build.make CMakeFiles/cmTC_cf688.dir/build]
+        ignore line: [make[1]: Entering directory '/media/guan/3CD61590D6154C10/SomeCodes/sensloc_new/poselib/_build/CMakeFiles/CMakeScratch/TryCompile-GIXKVe']
+        ignore line: [Building CXX object CMakeFiles/cmTC_cf688.dir/CMakeCXXCompilerABI.cpp.o]
+        ignore line: [/usr/bin/c++   -v -o CMakeFiles/cmTC_cf688.dir/CMakeCXXCompilerABI.cpp.o -c /home/guan/anaconda3/lib/python3.7/site-packages/cmake/data/share/cmake-3.26/Modules/CMakeCXXCompilerABI.cpp]
+        ignore line: [Using built-in specs.]
+        ignore line: [COLLECT_GCC=/usr/bin/c++]
+        ignore line: [OFFLOAD_TARGET_NAMES=nvptx-none]
+        ignore line: [OFFLOAD_TARGET_DEFAULT=1]
+        ignore line: [Target: x86_64-linux-gnu]
+        ignore line: [Configured with: ../src/configure -v --with-pkgversion='Ubuntu 7.5.0-3ubuntu1~18.04' --with-bugurl=file:///usr/share/doc/gcc-7/README.Bugs --enable-languages=c ada c++ go brig d fortran objc obj-c++ --prefix=/usr --with-gcc-major-version-only --program-suffix=-7 --program-prefix=x86_64-linux-gnu- --enable-shared --enable-linker-build-id --libexecdir=/usr/lib --without-included-gettext --enable-threads=posix --libdir=/usr/lib --enable-nls --enable-bootstrap --enable-clocale=gnu --enable-libstdcxx-debug --enable-libstdcxx-time=yes --with-default-libstdcxx-abi=new --enable-gnu-unique-object --disable-vtable-verify --enable-libmpx --enable-plugin --enable-default-pie --with-system-zlib --with-target-system-zlib --enable-objc-gc=auto --enable-multiarch --disable-werror --with-arch-32=i686 --with-abi=m64 --with-multilib-list=m32 m64 mx32 --enable-multilib --with-tune=generic --enable-offload-targets=nvptx-none --without-cuda-driver --enable-checking=release --build=x86_64-linux-gnu --host=x86_64-linux-gnu --target=x86_64-linux-gnu]
+        ignore line: [Thread model: posix]
+        ignore line: [gcc version 7.5.0 (Ubuntu 7.5.0-3ubuntu1~18.04) ]
+        ignore line: [COLLECT_GCC_OPTIONS='-v' '-o' 'CMakeFiles/cmTC_cf688.dir/CMakeCXXCompilerABI.cpp.o' '-c' '-shared-libgcc' '-mtune=generic' '-march=x86-64']
+        ignore line: [ /usr/lib/gcc/x86_64-linux-gnu/7/cc1plus -quiet -v -imultiarch x86_64-linux-gnu -D_GNU_SOURCE /home/guan/anaconda3/lib/python3.7/site-packages/cmake/data/share/cmake-3.26/Modules/CMakeCXXCompilerABI.cpp -quiet -dumpbase CMakeCXXCompilerABI.cpp -mtune=generic -march=x86-64 -auxbase-strip CMakeFiles/cmTC_cf688.dir/CMakeCXXCompilerABI.cpp.o -version -fstack-protector-strong -Wformat -Wformat-security -o /tmp/ccoy7LGe.s]
+        ignore line: [GNU C++14 (Ubuntu 7.5.0-3ubuntu1~18.04) version 7.5.0 (x86_64-linux-gnu)]
+        ignore line: [	compiled by GNU C version 7.5.0  GMP version 6.1.2  MPFR version 4.0.1  MPC version 1.1.0  isl version isl-0.19-GMP]
+        ignore line: []
+        ignore line: [GGC heuristics: --param ggc-min-expand=100 --param ggc-min-heapsize=131072]
+        ignore line: [ignoring duplicate directory "/usr/include/x86_64-linux-gnu/c++/7"]
+        ignore line: [ignoring nonexistent directory "/usr/local/include/x86_64-linux-gnu"]
+        ignore line: [ignoring nonexistent directory "/usr/lib/gcc/x86_64-linux-gnu/7/../../../../x86_64-linux-gnu/include"]
+        ignore line: [#include "..." search starts here:]
+        ignore line: [#include <...> search starts here:]
+        ignore line: [ /usr/include/c++/7]
+        ignore line: [ /usr/include/x86_64-linux-gnu/c++/7]
+        ignore line: [ /usr/include/c++/7/backward]
+        ignore line: [ /usr/lib/gcc/x86_64-linux-gnu/7/include]
+        ignore line: [ /usr/local/include]
+        ignore line: [ /usr/lib/gcc/x86_64-linux-gnu/7/include-fixed]
+        ignore line: [ /usr/include/x86_64-linux-gnu]
+        ignore line: [ /usr/include]
+        ignore line: [End of search list.]
+        ignore line: [GNU C++14 (Ubuntu 7.5.0-3ubuntu1~18.04) version 7.5.0 (x86_64-linux-gnu)]
+        ignore line: [	compiled by GNU C version 7.5.0  GMP version 6.1.2  MPFR version 4.0.1  MPC version 1.1.0  isl version isl-0.19-GMP]
+        ignore line: []
+        ignore line: [GGC heuristics: --param ggc-min-expand=100 --param ggc-min-heapsize=131072]
+        ignore line: [Compiler executable checksum: 3eb3dc290cd5714c3e1c3ae751116f07]
+        ignore line: [COLLECT_GCC_OPTIONS='-v' '-o' 'CMakeFiles/cmTC_cf688.dir/CMakeCXXCompilerABI.cpp.o' '-c' '-shared-libgcc' '-mtune=generic' '-march=x86-64']
+        ignore line: [ as -v --64 -o CMakeFiles/cmTC_cf688.dir/CMakeCXXCompilerABI.cpp.o /tmp/ccoy7LGe.s]
+        ignore line: [GNU assembler version 2.38 (x86_64-conda-linux-gnu) using BFD version (Anaconda binutils) 2.38]
+        ignore line: [COMPILER_PATH=/usr/lib/gcc/x86_64-linux-gnu/7/:/usr/lib/gcc/x86_64-linux-gnu/7/:/usr/lib/gcc/x86_64-linux-gnu/:/usr/lib/gcc/x86_64-linux-gnu/7/:/usr/lib/gcc/x86_64-linux-gnu/]
+        ignore line: [LIBRARY_PATH=/usr/local/cuda-11.1/lib64/../lib/:/usr/lib/gcc/x86_64-linux-gnu/7/:/usr/lib/gcc/x86_64-linux-gnu/7/../../../x86_64-linux-gnu/:/usr/lib/gcc/x86_64-linux-gnu/7/../../../../lib/:/lib/x86_64-linux-gnu/:/lib/../lib/:/usr/lib/x86_64-linux-gnu/:/usr/lib/../lib/:./:/usr/local/cuda-11.1/lib64/:/usr/lib/gcc/x86_64-linux-gnu/7/../../../:/lib/:/usr/lib/]
+        ignore line: [COLLECT_GCC_OPTIONS='-v' '-o' 'CMakeFiles/cmTC_cf688.dir/CMakeCXXCompilerABI.cpp.o' '-c' '-shared-libgcc' '-mtune=generic' '-march=x86-64']
+        ignore line: [Linking CXX executable cmTC_cf688]
+        ignore line: [/home/guan/anaconda3/lib/python3.7/site-packages/cmake/data/bin/cmake -E cmake_link_script CMakeFiles/cmTC_cf688.dir/link.txt --verbose=1]
+        ignore line: [/usr/bin/c++  -v CMakeFiles/cmTC_cf688.dir/CMakeCXXCompilerABI.cpp.o -o cmTC_cf688 ]
+        ignore line: [Using built-in specs.]
+        ignore line: [COLLECT_GCC=/usr/bin/c++]
+        ignore line: [COLLECT_LTO_WRAPPER=/usr/lib/gcc/x86_64-linux-gnu/7/lto-wrapper]
+        ignore line: [OFFLOAD_TARGET_NAMES=nvptx-none]
+        ignore line: [OFFLOAD_TARGET_DEFAULT=1]
+        ignore line: [Target: x86_64-linux-gnu]
+        ignore line: [Configured with: ../src/configure -v --with-pkgversion='Ubuntu 7.5.0-3ubuntu1~18.04' --with-bugurl=file:///usr/share/doc/gcc-7/README.Bugs --enable-languages=c ada c++ go brig d fortran objc obj-c++ --prefix=/usr --with-gcc-major-version-only --program-suffix=-7 --program-prefix=x86_64-linux-gnu- --enable-shared --enable-linker-build-id --libexecdir=/usr/lib --without-included-gettext --enable-threads=posix --libdir=/usr/lib --enable-nls --enable-bootstrap --enable-clocale=gnu --enable-libstdcxx-debug --enable-libstdcxx-time=yes --with-default-libstdcxx-abi=new --enable-gnu-unique-object --disable-vtable-verify --enable-libmpx --enable-plugin --enable-default-pie --with-system-zlib --with-target-system-zlib --enable-objc-gc=auto --enable-multiarch --disable-werror --with-arch-32=i686 --with-abi=m64 --with-multilib-list=m32 m64 mx32 --enable-multilib --with-tune=generic --enable-offload-targets=nvptx-none --without-cuda-driver --enable-checking=release --build=x86_64-linux-gnu --host=x86_64-linux-gnu --target=x86_64-linux-gnu]
+        ignore line: [Thread model: posix]
+        ignore line: [gcc version 7.5.0 (Ubuntu 7.5.0-3ubuntu1~18.04) ]
+        ignore line: [COMPILER_PATH=/usr/lib/gcc/x86_64-linux-gnu/7/:/usr/lib/gcc/x86_64-linux-gnu/7/:/usr/lib/gcc/x86_64-linux-gnu/:/usr/lib/gcc/x86_64-linux-gnu/7/:/usr/lib/gcc/x86_64-linux-gnu/]
+        ignore line: [LIBRARY_PATH=/usr/local/cuda-11.1/lib64/../lib/:/usr/lib/gcc/x86_64-linux-gnu/7/:/usr/lib/gcc/x86_64-linux-gnu/7/../../../x86_64-linux-gnu/:/usr/lib/gcc/x86_64-linux-gnu/7/../../../../lib/:/lib/x86_64-linux-gnu/:/lib/../lib/:/usr/lib/x86_64-linux-gnu/:/usr/lib/../lib/:./:/usr/local/cuda-11.1/lib64/:/usr/lib/gcc/x86_64-linux-gnu/7/../../../:/lib/:/usr/lib/]
+        ignore line: [COLLECT_GCC_OPTIONS='-v' '-o' 'cmTC_cf688' '-shared-libgcc' '-mtune=generic' '-march=x86-64']
+        link line: [ /usr/lib/gcc/x86_64-linux-gnu/7/collect2 -plugin /usr/lib/gcc/x86_64-linux-gnu/7/liblto_plugin.so -plugin-opt=/usr/lib/gcc/x86_64-linux-gnu/7/lto-wrapper -plugin-opt=-fresolution=/tmp/ccoOlfQd.res -plugin-opt=-pass-through=-lgcc_s -plugin-opt=-pass-through=-lgcc -plugin-opt=-pass-through=-lc -plugin-opt=-pass-through=-lgcc_s -plugin-opt=-pass-through=-lgcc --build-id --eh-frame-hdr -m elf_x86_64 --hash-style=gnu --as-needed -dynamic-linker /lib64/ld-linux-x86-64.so.2 -pie -z now -z relro -o cmTC_cf688 /usr/lib/gcc/x86_64-linux-gnu/7/../../../x86_64-linux-gnu/Scrt1.o /usr/lib/gcc/x86_64-linux-gnu/7/../../../x86_64-linux-gnu/crti.o /usr/lib/gcc/x86_64-linux-gnu/7/crtbeginS.o -L/usr/local/cuda-11.1/lib64/../lib -L/usr/lib/gcc/x86_64-linux-gnu/7 -L/usr/lib/gcc/x86_64-linux-gnu/7/../../../x86_64-linux-gnu -L/usr/lib/gcc/x86_64-linux-gnu/7/../../../../lib -L/lib/x86_64-linux-gnu -L/lib/../lib -L/usr/lib/x86_64-linux-gnu -L/usr/lib/../lib -L. -L/usr/local/cuda-11.1/lib64 -L/usr/lib/gcc/x86_64-linux-gnu/7/../../.. CMakeFiles/cmTC_cf688.dir/CMakeCXXCompilerABI.cpp.o -lstdc++ -lm -lgcc_s -lgcc -lc -lgcc_s -lgcc /usr/lib/gcc/x86_64-linux-gnu/7/crtendS.o /usr/lib/gcc/x86_64-linux-gnu/7/../../../x86_64-linux-gnu/crtn.o]
+          arg [/usr/lib/gcc/x86_64-linux-gnu/7/collect2] ==> ignore
+          arg [-plugin] ==> ignore
+          arg [/usr/lib/gcc/x86_64-linux-gnu/7/liblto_plugin.so] ==> ignore
+          arg [-plugin-opt=/usr/lib/gcc/x86_64-linux-gnu/7/lto-wrapper] ==> ignore
+          arg [-plugin-opt=-fresolution=/tmp/ccoOlfQd.res] ==> ignore
+          arg [-plugin-opt=-pass-through=-lgcc_s] ==> ignore
+          arg [-plugin-opt=-pass-through=-lgcc] ==> ignore
+          arg [-plugin-opt=-pass-through=-lc] ==> ignore
+          arg [-plugin-opt=-pass-through=-lgcc_s] ==> ignore
+          arg [-plugin-opt=-pass-through=-lgcc] ==> ignore
+          arg [--build-id] ==> ignore
+          arg [--eh-frame-hdr] ==> ignore
+          arg [-m] ==> ignore
+          arg [elf_x86_64] ==> ignore
+          arg [--hash-style=gnu] ==> ignore
+          arg [--as-needed] ==> ignore
+          arg [-dynamic-linker] ==> ignore
+          arg [/lib64/ld-linux-x86-64.so.2] ==> ignore
+          arg [-pie] ==> ignore
+          arg [-znow] ==> ignore
+          arg [-zrelro] ==> ignore
+          arg [-o] ==> ignore
+          arg [cmTC_cf688] ==> ignore
+          arg [/usr/lib/gcc/x86_64-linux-gnu/7/../../../x86_64-linux-gnu/Scrt1.o] ==> obj [/usr/lib/gcc/x86_64-linux-gnu/7/../../../x86_64-linux-gnu/Scrt1.o]
+          arg [/usr/lib/gcc/x86_64-linux-gnu/7/../../../x86_64-linux-gnu/crti.o] ==> obj [/usr/lib/gcc/x86_64-linux-gnu/7/../../../x86_64-linux-gnu/crti.o]
+          arg [/usr/lib/gcc/x86_64-linux-gnu/7/crtbeginS.o] ==> obj [/usr/lib/gcc/x86_64-linux-gnu/7/crtbeginS.o]
+          arg [-L/usr/local/cuda-11.1/lib64/../lib] ==> dir [/usr/local/cuda-11.1/lib64/../lib]
+          arg [-L/usr/lib/gcc/x86_64-linux-gnu/7] ==> dir [/usr/lib/gcc/x86_64-linux-gnu/7]
+          arg [-L/usr/lib/gcc/x86_64-linux-gnu/7/../../../x86_64-linux-gnu] ==> dir [/usr/lib/gcc/x86_64-linux-gnu/7/../../../x86_64-linux-gnu]
+          arg [-L/usr/lib/gcc/x86_64-linux-gnu/7/../../../../lib] ==> dir [/usr/lib/gcc/x86_64-linux-gnu/7/../../../../lib]
+          arg [-L/lib/x86_64-linux-gnu] ==> dir [/lib/x86_64-linux-gnu]
+          arg [-L/lib/../lib] ==> dir [/lib/../lib]
+          arg [-L/usr/lib/x86_64-linux-gnu] ==> dir [/usr/lib/x86_64-linux-gnu]
+          arg [-L/usr/lib/../lib] ==> dir [/usr/lib/../lib]
+          arg [-L.] ==> ignore
+          arg [-L/usr/local/cuda-11.1/lib64] ==> dir [/usr/local/cuda-11.1/lib64]
+          arg [-L/usr/lib/gcc/x86_64-linux-gnu/7/../../..] ==> dir [/usr/lib/gcc/x86_64-linux-gnu/7/../../..]
+          arg [CMakeFiles/cmTC_cf688.dir/CMakeCXXCompilerABI.cpp.o] ==> ignore
+          arg [-lstdc++] ==> lib [stdc++]
+          arg [-lm] ==> lib [m]
+          arg [-lgcc_s] ==> lib [gcc_s]
+          arg [-lgcc] ==> lib [gcc]
+          arg [-lc] ==> lib [c]
+          arg [-lgcc_s] ==> lib [gcc_s]
+          arg [-lgcc] ==> lib [gcc]
+          arg [/usr/lib/gcc/x86_64-linux-gnu/7/crtendS.o] ==> obj [/usr/lib/gcc/x86_64-linux-gnu/7/crtendS.o]
+          arg [/usr/lib/gcc/x86_64-linux-gnu/7/../../../x86_64-linux-gnu/crtn.o] ==> obj [/usr/lib/gcc/x86_64-linux-gnu/7/../../../x86_64-linux-gnu/crtn.o]
+        collapse obj [/usr/lib/gcc/x86_64-linux-gnu/7/../../../x86_64-linux-gnu/Scrt1.o] ==> [/usr/lib/x86_64-linux-gnu/Scrt1.o]
+        collapse obj [/usr/lib/gcc/x86_64-linux-gnu/7/../../../x86_64-linux-gnu/crti.o] ==> [/usr/lib/x86_64-linux-gnu/crti.o]
+        collapse obj [/usr/lib/gcc/x86_64-linux-gnu/7/../../../x86_64-linux-gnu/crtn.o] ==> [/usr/lib/x86_64-linux-gnu/crtn.o]
+        collapse library dir [/usr/local/cuda-11.1/lib64/../lib] ==> [/usr/local/cuda-11.1/lib]
+        collapse library dir [/usr/lib/gcc/x86_64-linux-gnu/7] ==> [/usr/lib/gcc/x86_64-linux-gnu/7]
+        collapse library dir [/usr/lib/gcc/x86_64-linux-gnu/7/../../../x86_64-linux-gnu] ==> [/usr/lib/x86_64-linux-gnu]
+        collapse library dir [/usr/lib/gcc/x86_64-linux-gnu/7/../../../../lib] ==> [/usr/lib]
+        collapse library dir [/lib/x86_64-linux-gnu] ==> [/lib/x86_64-linux-gnu]
+        collapse library dir [/lib/../lib] ==> [/lib]
+        collapse library dir [/usr/lib/x86_64-linux-gnu] ==> [/usr/lib/x86_64-linux-gnu]
+        collapse library dir [/usr/lib/../lib] ==> [/usr/lib]
+        collapse library dir [/usr/local/cuda-11.1/lib64] ==> [/usr/local/cuda-11.1/lib64]
+        collapse library dir [/usr/lib/gcc/x86_64-linux-gnu/7/../../..] ==> [/usr/lib]
+        implicit libs: [stdc++;m;gcc_s;gcc;c;gcc_s;gcc]
+        implicit objs: [/usr/lib/x86_64-linux-gnu/Scrt1.o;/usr/lib/x86_64-linux-gnu/crti.o;/usr/lib/gcc/x86_64-linux-gnu/7/crtbeginS.o;/usr/lib/gcc/x86_64-linux-gnu/7/crtendS.o;/usr/lib/x86_64-linux-gnu/crtn.o]
+        implicit dirs: [/usr/local/cuda-11.1/lib;/usr/lib/gcc/x86_64-linux-gnu/7;/usr/lib/x86_64-linux-gnu;/usr/lib;/lib/x86_64-linux-gnu;/lib;/usr/local/cuda-11.1/lib64]
+        implicit fwks: []
+      
+      
+...

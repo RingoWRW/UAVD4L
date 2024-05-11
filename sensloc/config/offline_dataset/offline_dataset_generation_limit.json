@@ -1,0 +1,34 @@
+{
+    "generate_render_pose": {
+      "obj_path":"/media/guan/data/CityofStars/shcnew/Data/",
+      "obj_dict_path":"/media/guan/3CD61590D6154C10/SomeCodes/3DV_2024/output/offline/DB_100",
+      "orgin_coord": [401448,3131258,0],
+      "oritation_path":"/media/guan/data/CityofStars/Render_new_1/bamu_euler.txt",
+      "intrinsic": [4056, 3040,6.29,4.71,4.52],
+      "base_height":100,
+      "write_path":"/media/guan/3CD61590D6154C10/SomeCodes/3DV_2024/output/offline/DB_100",
+      "block_num":15,
+      "config":{
+        "DSM_path":"/media/guan/data/CityofStars/shcnew/Production_4_DSM_merge.tif",
+        "DSM_npy_path":"/media/guan/data/CityofStars/shcnew/DSM.npy",
+        "num_sample":100
+      }
+    },
+    "blender_engine": {
+        "config":{
+          "blender_path" : "/home/guan/下载/blender-3.0.0-linux-x64/blender",
+    "sensor_height" : 4.71,
+    "sensor_width" : 6.29,
+    "f_mm" : 4.5,
+    "project_path":"/media/guan/data/CityofStars/DB_150/rgb.blend",
+    "project_test" : "/media/guan/3CD61590D6154C10/SomeCodes/3DV_2024/output/offline/DB_100/test1", 
+    "input_Objs":"/media/guan/data/CityofStars/shcnew/Data",
+    "python_path":"/media/guan/3CD61590D6154C10/SomeCodes/3DV_2024/sensloc/utils/blender/blender.py",
+    "depth_images":"/media/guan/3CD61590D6154C10/SomeCodes/3DV_2024/dataset_img/depths",
+    "img_save_path":"/media/guan/3CD61590D6154C10/SomeCodes/3DV_2024/dataset_img/images",
+    "intrinscs_path":"/media/guan/3CD61590D6154C10/SomeCodes/3DV_2024/output/offline/DB_100/intrinsic0.txt",
+    "extinsics_path":"/media/guan/3CD61590D6154C10/SomeCodes/3DV_2024/output/offline/DB_100/pose0.txt"
+        }
+       
+    }
+}

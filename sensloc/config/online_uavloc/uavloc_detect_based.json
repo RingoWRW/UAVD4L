@@ -1,0 +1,53 @@
+{
+    "read_EXIF": {
+        "input_EXIF_photo": "/media/guan/data/20230512feicuiwan/H20t/seq_all_new",
+        "input_EXIF_photo_Z": "/media/guan/data/20230512feicuiwan/H20t/seq_all_z",
+        "distortion_CC": [
+            0.293656243361741,
+            -1.13028438807054,
+            0.000113131446409535,
+            5.29911015250079e-05,
+            1.24340747827876
+        ],
+        "distortion": [
+            0.16179146,
+            -0.503421358,
+            0.000348668572,
+            2.91039845e-04,
+            0.338753376
+        ],
+        "gt_xml": "/media/guan/data/CityofStars/3D-models/cc/xml/query1.xml"
+    },
+    "queries": "/media/guan/data/CityofStars/Queries/process/single/seq1",
+    "read_RTK": {
+        "enable": true,
+        "input_RTK_path": "/mnt/sda/feicuiwan/yu3E/DJI_202305121603_083_ceshi",
+        "output_csv_path": "/home/ubuntu/Documents/code/SensLoc/datasets/jinxia/query/txt/RTK/",
+        "start_time": "2023-03-29 10:37:57",
+        "end_time": "2023-03-29 11:22:00"
+    },
+    "dataset_image":{
+        "images":"/media/guan/data/CityofStars/Render_all_images/images",
+        "depths":"/media/guan/data/CityofStars/Render_all_images/depths",
+        "pose_txt":"/media/guan/data/CityofStars/Render_all_images/new_db_pose.txt",
+        "intrinsic_txt":"/media/guan/data/CityofStars/Render_all_images/new_db_intrinsics.txt",
+        "read_path":"/media/guan/data/CityofStars/Render_all_images/",
+        "write_path":"/media/guan/data/CityofStars/Render_all_images/"
+    },
+    "ray_casting": {
+        "object_name": "pedestrian1",
+        "num_sample": 100,
+        "DSM_path": "/media/guan/data/CityofStars/shcnew/Production_4_DSM_merge.tif",
+        "DSM_npy_path": "/media/guan/data/CityofStars/shcnew/DSM.npy",
+        "area_minZ": 20.580223,
+        "set_error": 0.5,
+        "write_path": "./predictXYZ.txt"
+    },
+    "z_file_path":{
+        "json":"/media/guan/data/20230512feicuiwan/H20t/all_z_json/",
+        "w_json":"/media/guan/data/20230512feicuiwan/H20t/all_w_json",
+        "all_image":"/media/guan/data/20230512feicuiwan/H20t/seq_all_new",
+        "write_path":"/media/guan/data/CityofStars/Queries/process/single/seq_all",
+        "match_file_path":"/media/guan/data/CityofStars/Queries/process/single/seq_all/match.txt"
+    }
+}
